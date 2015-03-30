@@ -23,10 +23,8 @@ int main() {
 
 	while(input)
 	{
-		cin>>input;
-		array[array_index] = input;
 
-		if(array_index == (array_size - 1))
+		if(array_index == array_size)
 		{
 			array_size *= 2;
 			size_t *new_array = new size_t [array_size];
@@ -41,6 +39,8 @@ int main() {
 			new_array = nullptr;
 		}
 
+		cin>>input;
+		array[array_index] = input;
 		sum += array[array_index];
 		++array_index;
 	}
