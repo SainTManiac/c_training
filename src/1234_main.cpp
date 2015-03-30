@@ -1,6 +1,6 @@
 //============================================================================
-// Name        : 123.cpp
-// Author      : 
+// Name        : 1234.cpp
+// Author      :
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
