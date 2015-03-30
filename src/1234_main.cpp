@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : 1234.cpp
 // Author      :
-// Version     :
+// Version     : 0.1
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
 //============================================================================
@@ -56,7 +56,6 @@ int main() {
 	cout << array[array_index] << " = "<< sum << endl;
 
 	delete[] array;
-
 
 	return 0;
 }
